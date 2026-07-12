@@ -13,7 +13,11 @@ No mouse, no clicking — log in once and every code on screen refreshes itself 
 - **Animated UI** — spinners, unlock animation, and a live countdown bar, all in purple
 - Fully portable vaults: copy/move the `.qauth` file anywhere, no separate export/import step
 
-## Installation
+## Download (prebuilt Windows binary)
+
+Grab `qauth-v1.0.0.zip` from the [Releases page](https://github.com/DeathToNatsuki/qauth/releases), extract it anywhere, and run `qauth.exe` from inside the extracted folder. A `Vaults/` folder will be created right next to it the first time you make a vault. No install, no Python required.
+
+## Installation (from source)
 
 ```bash
 git clone https://github.com/DeathToNatsuki/qauth.git

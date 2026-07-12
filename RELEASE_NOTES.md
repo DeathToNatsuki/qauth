@@ -2,6 +2,10 @@
 
 Initial release.
 
+## Download
+
+`qauth-v1.0.0.zip` (attached below) contains a single prebuilt Windows binary, `qauth.exe`. Extract the zip and run `qauth.exe` — no Python or install required. A `Vaults/` folder will be created next to it automatically.
+
 ## Features
 
 - Terminal 2FA authenticator with a purple, arrow-key-driven UI
