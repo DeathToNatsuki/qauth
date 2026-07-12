@@ -17,20 +17,5 @@ Initial release.
 - Idle spinner and unlock animation
 - `Vaults/` folder created next to the script or built `.exe` — including single-file `--onefile` builds, which resolve their real launcher path so vault data doesn't end up in a temp folder
 
-## Requirements
 
-- Python 3.9+
-- `pyotp`, `cryptography` (`windows-curses` on Windows only)
-
-See `requirements.txt` and the README for install and usage instructions.
-
-## Building the .exe
-
-Nuitka is recommended over PyInstaller for this release — it compiles to a real native binary, giving faster startup and far fewer antivirus false positives:
-
-```
-pip install nuitka
-python -m nuitka --onefile --windows-console-mode=force --assume-yes-for-downloads --output-dir=dist qauth.py
-```
-
-See the README's "Building a standalone .exe" section for the PyInstaller alternative and troubleshooting.
+See the [README](https://github.com/DeathToNatsuki/qauth#readme) for source setup and full usage docs.
